@@ -27,7 +27,7 @@ for ( let i = -15; i  <= 15; i++){
  */
 let answer = ''
 for( let i = 20; i <= 30; i += 2) {
-    console.log()
+    console.log(answer = i)
 }
 
 /*
@@ -37,15 +37,34 @@ for( let i = 20; i <= 30; i += 2) {
         -If the value of a is even, print out "a is an even number".
         -If the value of a is odd, print out "a is an odd number".
 */
+for(let i = 0; i<=30; i++) {
+    if(i % 2 == 0){
+        const even = `${i} is even`;
+        console.log(even)
+
+    } else {
+        const odd = `${i} is odd`;
+        console.log(odd)
+    }
+}
 
 /*
 Prompt 7: Write a for loop that will iterate from 0 to 10. 
 For each iteration of the for loop, it will multiply the number by 9 and log the result.
 */
+for(let i = 0; i<= 10; i++) {
+    console.log(i*9)
+}
 
 // Prompt 8: Write a do...while loop that increments i by 2 as long as i is less than 20.
+let i = 0;
+do {
+    i += 2;
+    console.log(i);
+} while(i <= 20);
 
 // Prompt 9: Write a while loop that counts from 5 to 20 and prints each number to the console.
+
 
 // Prompt 10: Write a while loop to count from 20 to 0. Log each number to the console.
 
