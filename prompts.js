@@ -80,9 +80,12 @@ while(numOne >= 0){
 Prompt 11: Write a while loop that uses the prompt function that will continue to ask the user for the magic number 
 until they enter the number 8.
 */
-let questionOne = prompt('What is the magic number?');
-let answerOne = 8;
-//??
+let question = prompt('What is the magic number from 1 to 10?');
+let questionOne = parseInt(question);
+let answer = 8;
+while(questionOne < answer || questionOne > 8){
+    let keepAsking = question;
+}//???
 
 // Prompt 12: Write a do while loop that iterates at least once and reiterates until i is no longer less than 5.
 let i = 0
