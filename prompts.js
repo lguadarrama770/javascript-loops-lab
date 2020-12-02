@@ -82,10 +82,7 @@ until they enter the number 8.
 */
 let questionOne = prompt('What is the magic number?');
 let answerOne = 8;
-let question = parseInt(questionOne);
-while(question !== answerOne){
-       
-}//this needs to be fixed...
+//??
 
 // Prompt 12: Write a do while loop that iterates at least once and reiterates until i is no longer less than 5.
 let i = 0
